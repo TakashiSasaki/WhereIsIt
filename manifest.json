@@ -1,15 +1,15 @@
 {
     "name": "WhereIsIt",
     "description": "Helps to find your belongings where it is.",
-    "version": "001",
+    "version": "0.0.1",
     "app": {
         "launch": {
             "local_path": "main.html"
         }
     },
     "icons": {
-        "16": "icon_16.png",
-        "128": "icon_128.png"
+        "16": "icon-16.png",
+        "128": "icon-128.png"
     },
     "permissions": [
         "http://example.com/*",

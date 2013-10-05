@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="192d682c-6d39-405b-be3e-d8e631e5bc13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/options.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,7 +30,16 @@
       <file leaf-file-name="manifest.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="118" selection-end="118" vertical-scroll-proportion="0.06078665" vertical-offset="0" max-vertical-offset="839">
+            <state line="4" column="21" selection-start="140" selection-end="140" vertical-scroll-proportion="0.08104887" vertical-offset="0" max-vertical-offset="839">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="options.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/options.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -209,9 +218,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/options.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="118" selection-end="118" vertical-scroll-proportion="0.06078665" vertical-offset="0" max-vertical-offset="839">
+        <state line="4" column="21" selection-start="140" selection-end="140" vertical-scroll-proportion="0.08104887" vertical-offset="0" max-vertical-offset="839">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 {
     "name": "WhereIsIt",
     "description": "Helps to find your belongings where it is.",
+    "manifest_version": 2,
     "version": "0.0.1",
     "app": {
         "launch": {

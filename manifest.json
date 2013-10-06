@@ -2,7 +2,7 @@
     "name": "WhereIsIt",
     "description": "Helps to find your belongings where it is.",
     "manifest_version": 2,
-    "version": "0.0.2",
+    "version": "0.0.3",
     "app": {
         "launch": {
             "local_path": "main.html"
@@ -14,6 +14,8 @@
     },
     "options_page": "options.html",
     "permissions": [
+        "http://localhost:80/",
+        "http://localhost:5984/",
         "http://example.com/*",
         "geolocation",
         "notifications",

@@ -4,17 +4,12 @@
     <meta charset="UTF-8">
     <title> Packaged Appのサンプル</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen, projection"/>
-    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    　
 </head>
 <body>
 <h1>Hello World!</h1>
 
 <form class="form-inline">
-    <input type="button" onclick="scanPorts(80,1100);" value="scan port 80 to 1100 of localhost"/>
-    <input type="button" onclick="scanPorts(63300, 63400);" value="scan port 63300 to 63400 of localhost"/>
-    <input type="button" onclick="scanPorts(5980, 5989);" value="scan port 5980 to 5989 of localhost"/>
+    <input type="button" id="buttonScan" value="scan port 5980 to 5989 of localhost"/>
 </form>
 <table id="scanned-results" class="table table-bordered table-striped table-hover container">
     <tbody>
@@ -24,29 +19,8 @@
     </tr>
     </tbody>
 </table>
-<script>
-    function scanPorts(start, end) {
-        if (start == null) start = 1;
-        if (end == null) end = 65535;
-        for (var i = start; i <= end; ++i) {
-            scanPort(i);
-        }
-    }
-    function scanPort(port_number) {
-        var url = "http://localhost:" + port_number + "/";
-        var query = $.get(url);
-        var port_number = new Number(port_number);
-        query.always(function () {
-        });
-        query.done(function (data, textStatus, jqXHR) {
-            var tbody_element = $("#scanned-results tbody");
-            tbody_element.append($("<tr><td>" + url + "</td><td>" + jqXHR.status + "</td></tr>"));
-        });
-        query.fail(function (jqXHR, textStatus, errorThrown) {
-            var tbody_element = $("#scanned-results tbody");
-            tbody_element.append($("<tr><td>" + url + "</td><td>" + jqXHR.status + "</td></tr>"));
-        });
-    }
-</script>
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scan.js"></script>    　
 </body>
 </html>

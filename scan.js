@@ -21,6 +21,5 @@ function scanPort(port_number) {
     });
 }
 $("#buttonScan").bind("click", function (event) {
-    alert("bind");
     scanPorts(5980, 5989);
 });

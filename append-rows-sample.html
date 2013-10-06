@@ -17,8 +17,10 @@
     </tr>
     </tbody>
 </table>
+<button onclick="addRow();">This button works</button>
 <form>
-    <button onclick="addRow();">scan all ports of localhost</button>
+    <button onclick="addRow();">This button does not work properly. Added row(s) will be removed soon.</button>
+    <input type="button" onclick="addRow();" value="This button works properly."/>
 </form>
 <script>
     function addRow() {

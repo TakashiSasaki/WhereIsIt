@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="192d682c-6d39-405b-be3e-d8e631e5bc13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/append-rows-sample.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/append-rows-sample.html" afterPath="$PROJECT_DIR$/append-rows-sample.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -48,7 +48,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="395" selection-end="506" vertical-scroll-proportion="-2.6153846" vertical-offset="204" max-vertical-offset="1071">
+            <state line="16" column="93" selection-start="579" selection-end="579" vertical-scroll-proportion="-7.1923075" vertical-offset="85" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
       <file leaf-file-name="append-rows-sample.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/append-rows-sample.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="5" selection-start="356" selection-end="356" vertical-scroll-proportion="0.47095436" vertical-offset="96" max-vertical-offset="663">
+            <state line="22" column="82" selection-start="607" selection-end="607" vertical-scroll-proportion="0.5767635" vertical-offset="96" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -82,8 +82,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/manifest.json" />
-        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/main2.html" />
+        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/append-rows-sample.html" />
       </list>
     </option>
@@ -185,13 +185,18 @@
       <recent name="C:\Users\TakashiSasaki\Documents\GitHub\WhereIsIt" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.main2.html">
+  <component name="RunManager" selected="JavaScript Debug.append-rows-sample.html">
     <configuration default="false" name="main.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/WhereIsIt/main.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="false" name="main2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/WhereIsIt/main2.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="append-rows-sample.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/WhereIsIt/append-rows-sample.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -225,14 +230,16 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.main.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.main2.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.append-rows-sample.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.main2.html" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.append-rows-sample.html" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.main.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.main2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -298,14 +305,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="395" selection-end="506" vertical-scroll-proportion="-2.6153846" vertical-offset="204" max-vertical-offset="1071">
+        <state line="16" column="93" selection-start="579" selection-end="579" vertical-scroll-proportion="-7.1923075" vertical-offset="85" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/append-rows-sample.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="356" selection-end="356" vertical-scroll-proportion="0.47095436" vertical-offset="96" max-vertical-offset="663">
+        <state line="22" column="82" selection-start="607" selection-end="607" vertical-scroll-proportion="0.5767635" vertical-offset="96" max-vertical-offset="697">
           <folding />
         </state>
       </provider>

@@ -3,8 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title> Packaged Appのサンプル</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen, projection"/>
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    　
 </head>
 <body>
 <h1>Hello World!</h1>
+
+<form class="form-inline">
+    <input type="button" onclick="scanPorts(80,82);" value="scan all ports of localhost"/>
+</form>
+<table id="scanned-results" class="table table-bordered table-striped table-hover container">
+    <tbody>
+    <tr>
+        <td>port</td>
+        <td>result</td>
+    </tr>
+    </tbody>
+</table>
+<script>
+    function scanPorts(start, end) {
+        if (start == null) start = 1;
+        if (end == null) end = 65535;
+        for (var i = start; i <= end; ++i) {
+            j = new Number(i);
+            setTimeout(function () {
+                scanPort(j);
+            }, 10);
+        }
+    }
+    function scanPort(port_number) {
+        var url = "http://localhost:" + port_number;
+        var query = $.get(url);
+        var port_number = new Number(port_number);
+        query.always(function () {
+        });
+        query.done(function (data, textStatus, jqXHR) {
+            var tbody_element = $("#scanned-results tbody");
+            tbody_element.append($("<tr><td>" + url + "</td><td>" + msg + "</td></tr>"));
+        });
+        query.fail(function (jqXHR, textStatus, errorThrown) {
+            var tbody_element = $("#scanned-results tbody");
+            tbody_element.append($("<tr><td>" + url + "</td><td>" + textStatus + "</td></tr>"));
+        });
+    }
+</script>
 </body>
 </html>

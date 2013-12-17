@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="192d682c-6d39-405b-be3e-d8e631e5bc13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Everything.js" afterPath="$PROJECT_DIR$/Everything.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
     </list>
     <ignored path="WhereIsIt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,19 +46,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="14" selection-start="777" selection-end="777" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="697">
+            <state line="29" column="65" selection-start="1047" selection-end="1055" vertical-scroll-proportion="0.49547738" vertical-offset="0" max-vertical-offset="995">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Everything.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Everything.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Everything.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="17" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.67408127" vertical-offset="0" max-vertical-offset="1156">
+            <state line="39" column="44" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/append-rows-sample.html" />
         <option value="$PROJECT_DIR$/scan.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
-        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/Everything.js" />
+        <option value="$PROJECT_DIR$/main.html" />
       </list>
     </option>
   </component>
@@ -401,13 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="14" selection-start="777" selection-end="777" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="54" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
@@ -417,7 +410,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Everything.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="17" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.67408127" vertical-offset="0" max-vertical-offset="1156">
+        <state line="39" column="44" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="65" selection-start="1047" selection-end="1055" vertical-scroll-proportion="0.49547738" vertical-offset="0" max-vertical-offset="995">
           <folding />
         </state>
       </provider>

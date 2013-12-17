@@ -1,11 +1,13 @@
 /* for Everything serach engine */
 "use strict";
-function Everything(port) {
-    if (port == null) port = 80;
-    var url = "http://localhost:" + port + "/";
+function Everything(port, query) {
+    this.self = this;
+    if (port == null) self.port = 80; else self.port = port;
+    self.url = "http://localhost:" + port + "/?search=" + encodeURI(query);
+    self.result = new Array();
 
     this.run = function () {
-        console.log(url);
+        console.log(self.url);
         var jq_xhr = $.ajax(
             {
                 url: url,
@@ -14,15 +16,30 @@ function Everything(port) {
             }
         );
         jq_xhr.done(function (data, textStatus, jqXHR) {
-            console.log("ajax done");
             var dom = $(data);
-            this.title = dom[3].innerText;
+            var table = dom.find("table");
+            var tr = table.find("tr");
+            console.log(tr);
+            tr.each(function (x) {
+                console.log("" + x + "->" + this);
+
+                if ($(this).is(".trdata1") || $(this).is(".trdata2")) {
+                    var a = $(this).find("a");
+                    var filename = $(a[0]).contents().text();
+                    var directory = $(a[1]).contents().text();
+                    var size = $(this).find(".sizedata").text();
+                    var datetime = $(this).find(".modifieddata").text();
+                    self.result.push([filename, directory, size, datetime]);
+                }
+            });
+
+            var title = dom[3].innerText;
             if (title == "Everything") {
                 this.isHttpAccepted = true;
             } else {
                 this.isHttpAccepted = false;
             }//if
-            $("#textareaEverything").val(data);
+            $("#textareaEverything").val(self.result);
         });
 
         jq_xhr.fail(function (xmlHttpRequest, textStatus, errorThrown) {

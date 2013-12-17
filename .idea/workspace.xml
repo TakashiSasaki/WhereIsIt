@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Everything.js" line="27" mnemonic="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="192d682c-6d39-405b-be3e-d8e631e5bc13" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Everything.js" afterPath="$PROJECT_DIR$/Everything.js" />
     </list>
     <ignored path="WhereIsIt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,10 +55,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scan.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Everything.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Everything.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="5" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.6054159" vertical-offset="3" max-vertical-offset="1105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scan.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="0.38295788" vertical-offset="0" max-vertical-offset="1021">
+            <state line="8" column="54" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -98,9 +110,9 @@
         <option value="$PROJECT_DIR$/main2.html" />
         <option value="$PROJECT_DIR$/append-rows-sample.html" />
         <option value="$PROJECT_DIR$/scan.js" />
-        <option value="$PROJECT_DIR$/Everything.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/Everything.js" />
       </list>
     </option>
   </component>
@@ -380,13 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Everything.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.69052225" vertical-offset="0" max-vertical-offset="1034">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="34085">
@@ -405,7 +410,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scan.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="0.38295788" vertical-offset="0" max-vertical-offset="1021">
+        <state line="8" column="54" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Everything.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="5" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.6054159" vertical-offset="3" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>

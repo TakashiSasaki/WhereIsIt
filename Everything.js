@@ -39,7 +39,10 @@ function Everything(port, query) {
             } else {
                 this.isHttpAccepted = false;
             }//if
-            $("#textareaEverything").val(self.result);
+            try {
+                $("#textareaEverything").val(self.result);
+            } catch (e) {
+            }
         });
 
         jq_xhr.fail(function (xmlHttpRequest, textStatus, errorThrown) {

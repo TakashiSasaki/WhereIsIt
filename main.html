@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <title> Packaged Appのサンプル</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen, projection"/>
-    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<h1>Hello World! 2013年10月7日</h1>
-
-<form class="form-inline">
-    <input type="button" id="buttonScan" value="scan port 5980 to 5989 of localhost"/>
-</form>
-<table id="scanned-results" class="table table-bordered table-striped table-hover container">
-    <tbody>
-    <tr>
-        <td>port</td>
-        <td>result</td>
-    </tr>
-    </tbody>
-</table>
+<div class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading">ポートスキャン</div>
+        <div class="panel-body">
+            <button type="button" class="btn" id="buttonScan">scan port 5980 to 5989 of localhost</button>
+            <table id="scanned-results" class="table table-bordered table-striped table-hover container">
+                <tbody>
+                <tr>
+                    <td>port</td>
+                    <td>result</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 <h1>Everything Search Engine</h1>
 
 <div id="test"></div>
 <form class="form-inline">
     <textarea id="textareaEverything" class="input-lg"></textarea>
 </form>
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="scan.js"></script>
 <script type="text/javascript" src="Everything.js"></script>
 </body>
